@@ -1,195 +1,340 @@
 <!DOCTYPE html>
-<!--
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<html lang="ko">
 
 <head>
-    <title>MY Portfolio</title>
+    <title> 제주도 투어 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/rollmain.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/jquery.smooth-scroll.min.js"></script>
+    <!--[if lte IE 9]>
+    <script src="js/html5shiv.js"></script>
+	<script src="js/placeholders.min.js"></script>
+<![endif]-->
 </head>
 
-<body class="is-preload">
-    <!-- Header -->
-    <header id="header">
+<body>
+    <ul class="skipnavi">
+        <li><a href="#container">본문내용</a></li>
+    </ul>
+    <!-- wrap -->
+    <div id="wrap">
 
-        <h1>Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#intro">Introduce</a></li>
-                <li><a href="#one">about me</a></li>
-                <li><a href="#two">my skill</a></li>
-                <li><a href="#work">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Intro -->
-    <section id="intro" class="main style1 dark fullscreen">
-        <div class="content">
-            <header>
-                <h2>welcome to my Portfolio :)</h2>
-            </header>
-            <p1>
-                웹 <strong>퍼블리셔를 &nbsp;꿈꾸는&nbsp;</strong> 이기연 입니다.
-                <br />
-            </p1>
-            <footer>
-                <a href="#one" class="button style2 down">More</a>
-            </footer>
-        </div>
-    </section>
+        <header id="header">
+            <div class="header_area box_inner clear">
+                <h1><a href="javascript:;">Tourist in tour</a></h1>
+                <p class="openMOgnb"><a href="#"><b class="hdd">메뉴열기</b> <span></span><span></span><span></span></a></p>
+                <!-- header_cont -->
+                <div class="header_cont">
+                    <ul class="util clear">
+                        <li><a href="javascript:;">로그인 &nbsp;</a></li>
+                        <li><a href="http://127.0.0.1:5500/05%20project/join.html" target="_blank">회원가입</a></li>
+                    </ul>
+                    <nav>
+                        <ul class="gnb clear">
+                            <li><a href="javascript:;" class="openAll1">여행정보</a>
 
-    <!-- One -->
-    <section id="one" class="main style2 right dark fullscreen">
-        <div class="content box style2">
-            <header>
-                <h2>"웹 퍼블리셔를 꿈꾸는 저를 소개합니다" </h2>
-            </header>
-            <p2>
-                <br>하고자 하는일에 있어서는 끊임 없이 도전하고 <strong>직접</strong>부딪혀보며 경험으로 성장하는 이기연입니다. 제손끝에서 하나하나 채워지는 웹사이트가 너무나 새롭고 흥미로워 웹을 배워보자는 마움으로 이젠 컴퓨터에서 Ai인공지능 과정을 수료하며 웹에 대한 지식을 채워나갔습니다. 이후 코딩을 더 자세히 배우고 싶어<strong>HTML5,CSS,jquery</strong> 등 공부하여 기량을 향상시켰습니다.
-                아직 많이 부족하지만 빠르게 변화하는 시대에 맞춰 저또한 계속되는 공부로 도태되지않고 더멋진 내일이 오도록 발전해 나가고 남들보다 더 노력하겠습니다. 감사합니다.
-            </p2>
-        </div>
-
-        <a href="#two" class="button style2 down anchored">Next</a>
-    </section>
-
-    <!-- Two -->
-    <section id="two" class="main style2 left dark fullscreen">
-        <div class="content box style2">
-            <header>
-                <h2>
-                    <center>my skill</center>
-                </h2>
-            </header>
-            <img src="images/img.skill1.PNG" width="300px"></a>
-            <img src="images/img.skill2.PNG" width="200px"></a>
-            <img src="images/img.skill3.PNG" width="300px"></a>
-            <a href="#work" class="button style2 down anchored">Next</a>
-    </section>
-
-    <!-- Work -->
-    <section id="work" class="main style3 primary">
-        <div class="content">
-            <header>
-                <h2>Portfolio</h2>
-                <p3>
-                    열심히 만들어 봤습니다!
-                </p3>
-            </header>
-
-            <!-- Gallery  -->
-            <div class="gallery">
-                <article class="from-left">
-                    <a href="images/img.main1-1.PNG" class="image fit"><img src="images/img.main1.PNG" title="메인 페이지 입니다" alt="" /></a>
-                </article>
-                <article class="from-right">
-                    <a href="images/fulls/02.jpg" class="image fit"><img src="images/main2.PNG" title="Airchitecture II" alt="" /></a>
-                </article>
-                <article class="from-left">
-                    <a href="images/fulls/03.jpg" class="image fit"><img src="images/main3.PNG" title="Air Lounge" alt="" /></a>
-                </article>
-                <article class="from-right">
-                    <a href="images/fulls/04.jpg" class="image fit"><img src="images/login.PNG" title="Carry on" alt="" /></a>
-                </article>
-                <article class="from-left">
-                    <a href="images/fulls/05.jpg" class="image fit"><img src="images/main4.PNG" title="The sparkling shell" alt="" /></a>
-                </article>
-                <article class="from-right">
-                    <a href="images/fulls/06.jpg" class="image fit"><img src="images/main5.PNG" title="Bent IX" alt="" /></a>
-                </article>
+                                <div class="gnb_depth gnb_depth2_1">
+                                    <ul class="submenu_list">
+                                        <a href="http://127.0.0.1:5500/05%20project/index.html#butt " target=_ blank>제주시&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 서귀포시&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 제주특별자치도</a>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="javascript:;" class="openAll2">고객센터</a>
+                                <div class="gnb_depth gnb_depth2_2">
+                                    <ul class="submenu_list">
+                                        <a href="http://127.0.0.1:5500/05%20project/notice_list.html " target=_ blank>공지사항&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 문의하기</a>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="javascript:; " class="openAll3 ">상품투어</a>
+                                <div class="gnb_depth gnb_depth2_3 ">
+                                    <ul class="submenu_list ">
+                                        <a href="http://127.0.0.1:5500/05%20project/program.html " target="_blank "> 프로그램소개&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 여행자료</a>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="javascript:; " class="openAll4 ">티켓/가이드</a>
+                                <div class="gnb_depth gnb_depth2_4 ">
+                                    <ul class="submenu_list ">
+                                        <li><a href="javascript:; ">항공</a></li>
+                                        <li><a href="javascript:; ">호텔</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <p class="closePop "><a href="javascript:; ">닫기</a></p>
+                </div>
+                <!-- //header_cont -->
             </div>
-        </div>
-    </section>
+        </header>
 
-    <!-- Contact -->
-    <section id="contact" class="main style3 secondary">
-        <div class="content">
-            <header>
-                <h2>Contact</h2>
-                <p4>
-                    지금까지 봐주셔서 감사합니다!
-                </p4>
-            </header>
-            <div class="box">
-                <form method="post" action="#">
-                    <div class="fields">
-                        <div class="field half">
-                            <input type="text" name="name" placeholder="Name" />
+        <div id="container ">
+            <div class="main_rolling_pc ">
+                <div class="visualRoll ">
+                    <ul class="viewImgList ">
+                        <li class="imglist0 ">
+                            <div class="roll_content ">
+                                <a href="javascript:; ">
+                                    <!-- <img src="img/img_slidecontents01.png " alt="TRUST & INFORMATION 믿을 수 있는 여행정보, 여행... 어디로 가세요? "></a> -->
+                                    <p class="roll_txtline ">BE JEJURIST FOR BETTER LIFE</p>
+                            </div>
+                        </li>
+                        <li class="imglist1 ">
+                            <div class="roll_content ">
+                                <a href="javascript:; ">
+                                    <!-- <img src="img/img_slidecontents02.png " alt="TRUST & INFORMATION 믿을 수 있는 여행정보, 여행... 어디로 가세요? ">--></a>
+                                <p class="roll_txtline ">BE JEJURIST FOR BETTER LIFE</p>
+                            </div>
+                        </li>
+                        <li class="imglist2 ">
+                            <div class="roll_content ">
+                                <a href="javascript:; ">
+                                    <!-- <img src="img/img_slidecontents03.png " alt="TRUST & INFORMATION 믿을 수 있는 여행정보, 여행... 어디로 가세요? ">--></a>
+                                <p class="roll_txtline ">BE JEJURIST FOR BETTER LIFE</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="rollbtnArea ">
+                        <ul class="rollingbtn ">
+                            <li class="seq butt0 ">
+                                <a href="#butt "><img src="img/btn_rollbutt_on.png " alt="1번 " /></a>
+                            </li>
+                            <li class="seq butt1 ">
+                                <a href="#butt "><img src="img/btn_rollbutt_off.png " alt="2번 " /></a>
+                            </li>
+                            <li class="seq butt2 ">
+                                <a href="#butt "><img src="img/btn_rollbutt_off.png " alt="3번 " /></a>
+                            </li>
+                            <li class="rollstop ">
+                                <a href="# " class="stop "><img src="img/btn_roll_stop.png " alt="멈춤 " /></a>
+                            </li>
+                            <li class="rollplay ">
+                                <a href="# " class="play "><img src="img/btn_roll_play.png " alt="재생 " /></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- //rollbtnArea -->
+
+                </div>
+                <!-- //visualRoll -->
+            </div>
+            <!-- //main_rolling_pc -->
+
+            <div class="main_rolling_mobile ">
+                <div class="swiper-container ">
+                    <!--슬라이딩될 콘텐츠를 감싸는 요소로서 플러그인에 있는 명칭 그대로씀-->
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide ">
+                            <a href="javascript:; "><img src="img/mainslide_mob01.jpg " alt="TRUST & INFORMATION 믿을 수 있는 여행정보, 여행... 어디로 가세요? " /></a>
                         </div>
-                        <div class="field half">
-                            <input type="email" name="email" placeholder="Email" />
+                        <div class="swiper-slide ">
+                            <a href="javascript:; "><img src="img/mainslide_mob02.jpg " alt="TRUST & INFORMATION 믿을 수 있는 여행정보, 여행... 어디로 가세요? " /></a>
                         </div>
-                        <div class="field">
-                            <textarea name="message" placeholder="Message" rows="6"></textarea>
+                        <div class="swiper-slide ">
+                            <a href="javascript:; "><img src="img/mainslide_mob03.jpg " alt="TRUST & INFORMATION 믿을 수 있는 여행정보, 여행... 어디로 가세요? " /></a>
                         </div>
                     </div>
-                    <ul class="actions special">
-                        <li><input type="submit" value="Send Message" /></li>
-                    </ul>
-                </form>
+                    <div class="swiper-pagination "></div>
+                    <!--하단의 작은 동그라미 점으로 나타날 페이징 요소-->
+                    <!-- <div class="swiper-button-next "></div>
+                <div class="swiper-button-prev "></div> -->
+
+                </div>
+                <!--//swiper-container-->
             </div>
+            <!--//main_rolling_mobile -->
+            <!--모바일에 들어가는 터치슬라이더 영역으로 pc에서는 숨겨줌-->
+
+            <!-- about_area -->
+            <div class="about_area ">
+                <h2>다시 찾는 제주 인기 여행지 <b>TOP 3<button></button></b></h2>
+                <style type="text/css">
+
+                </style>
+                <div class="about_box ">
+                    <ul class="place_list box_inner clear ">
+                        <!--place_list:하위요소들이 float될예정이며 기본 가로폭으로 중앙정렬할것이므로 클래스 지정한다-->
+                        <li>
+                            <a href="# " onclick="$( '.popup_base').css( 'height',$(document).height());$( '.contact_pop').show(); ">
+                                <img class="img_place 14 " src="img/img_place_ 14.jpg " alt="다리를 높이 들어 운동 " />
+                                <h3>함덕</h3>
+                                <p class="txt ">해외여행지에 밀리지 않는 푸르고 투명한 바다색과 하얀 모래사장의 어우러지는 낙원!</p>
+                                <span class="view ">VIEW</span></a>
+                        </li>
+                        <li>
+                            <a href="# " onclick="$( '.popup_base').css( 'height',$(document).height());$( '.space_pop').show(); ">
+                                <img class="img_ place13 " src="img/img_ place_13.jpg " alt="바닷가에서 스트레칭 " />
+                                <h3>가파도</h3>
+                                <p class="txt ">다른 지역의 보리보다 2배 넘게 자라는 푸른 청보리 물결을 만끽할수 있다.</p>
+                                <span class="view ">VIEW</span></a>
+                        </li>
+                        <li>
+                            <a href="# " onclick="$( '.popup_base').css( 'height',$(document).height());$( '.program_pop').show(); ">
+                                <img class="bg_ sea " src="img/bg_ sea.jpg " alt="앉아서 스트레칭 " />
+                                <h3>협재 해수욕장</h3>
+                                <p class="txt ">맑은 물과 막찍어도 이쁘게 나오는 포토 스팟!</p>
+                                <span class="view ">VIEW</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- //about_area -->
+
+            <!-- app_area -->
+            <div class="appbbs_area ">
+                <div class="appbbs_box box_inner clear ">
+                    <h2 class="hdd ">상담과 최근게시물</h2>
+                    <p class="app_line ">
+                        <a href="https://www.epis.or.kr/api/sns/kakaoAPI; ">카카오톡 1:1 상담</a>
+                        <a href="javascript:; ">전화 상담 신청</a>
+                    </p>
+                    <div class="bbs_line ">
+                        <h3>NOTICE</h3>
+                        <ul class="notice_recent ">
+                            <li><a href="javascript:; ">이번 여름 휴가 제주 갈까? 미션 투어 (여행경비 50만원 지원)</a></li>
+                            <li><a href="javascript:; ">제주도 투어 응모 당첨자 발표</a></li>
+                            <li><a href="javascript:; ">추석 연휴 티켓/투어 배송 및 직접 수령 안내</a></li>
+                            <li><a href="javascript:; ">하롱베이 서비스 OPEN! (여행정보, 가이드북, 가이드맵)</a></li>
+                            <li><a href="javascript:; ">제주도 투어 서비스 점검 안내</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- //app_area -->
+
         </div>
-    </section>
+        <!-- //container -->
 
-    <!-- Footer -->
-    <footer id="footer">
-        <!-- Icons -->
-        <ul class="icons">
+        <footer>
+            <div class="foot_area box_inner ">
+                <ul class="foot_list clear ">
+                    <li><a href="javascript:; ">이용약관</a></li>
+                    <li><a href="javascript:; ">개인정보취급방침</a></li>
+                </ul>
+                <h2>제주도 투어</h2>
+                <p class="addr ">경기도 성남시 중원구 광명로 4 (성남동,아트팰리스) 5층 <span class="gubun ">/</span>
+                    <span class="br_line ">대표전화 <span class="space0 ">010-4088-4238</span> <span class="gubun ">/</span>
+                    <span class="br_line ">E-mail : <span class="space0 "> zlfun21@naver.com</span></span>
+                    </span>
+                </p>
+                <p class="copy box_inner ">Copyright(c) JEJUInTour all right reserved</p>
+                <ul class="snslink clear ">
+                    <li><a href="https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0; ">blog</a></li>
+                    <li><a href="https://ko-kr.facebook.com/; ">facebook</a></li>
+                    <li><a href="https://www.instagram.com/; ">instargram</a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+    <!-- //wrap -->
+
+    <h2 class="hdd ">빠른 링크 : 전화 문의,카카오톡,오시는 길,꼭대기로</h2>
+    <div class="quick_area ">
+        <ul class="quick_list ">
             <li>
-                <a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a
-          >
-        </li>
-        <li>
-          <a href="#" class="icon brands fa-facebook-f"
-            ><span class="label">Facebook</span></a
-          >
-        </li>
-        <li>
-          <a href="#" class="icon brands fa-instagram"
-            ><span class="label">Instagram</span></a
-          >
-        </li>
-        <li>
-          <a href="#" class="icon brands fa-linkedin-in"
-            ><span class="label">LinkedIn</span></a
-          >
-        </li>
-        <li>
-          <a href="#" class="icon brands fa-dribbble"
-            ><span class="label">Dribbble</span></a
-          >
-        </li>
-        <li>
-          <a href="#" class="icon brands fa-pinterest"
-            ><span class="label">Pinterest</span></a
-          >
-        </li>
-      </ul>
-
-      <!-- Menu -->
-      <ul class="menu">
-        <!-- <li>&copy; Untitled</li> -->
-        <!-- <li>Design: <a href="https://html5up.net">HTML5 UP</a></li> -->
+                <a href="tel:010-4088-4238 ">
+                    <h3>전화 문의</h3>
+                    <p>010-4088-4238</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.epis.or.kr/api/sns/kakaoAPI; ">
+                    <h3>카카오톡 <em>상담</em></h3>
+                    <p>1:1상담</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://map.naver.com/v5/entry/place/13043172?c=14152056.6606640,4499597.2290180,13,0,0,0,dh&placePath=%2Fhome%3Fentry=plt; ">
+                    <h3 class="to_contact ">오시는 길</h3>
+                </a>
+            </li>
         </ul>
-    </footer>
+        <p class="to_top "><a href="#layout0 " class="s_point ">TOP</a></p>
+    </div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.poptrox.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script type="text/javascript " src="js/swiper.min.js "></script>
+    <script type="text/javascript ">
+        $(document).ready(function() {
+            var swiper = new Swiper('.swiper-container', {
+                loop: true, //마지막에서 처음으로 다시 돌아갑니다.
+                autoplay: 5500, //자동으로 돌아가는 속도는 5.5초로 설정
+                autoplayDisableOnInteraction: false, //터치슬라이딩한 후에도 멈추지 않고 계속돌아감
+                pagination: '.swiper-pagination', //동그라미 페이지네이션의 클래스명을 지정
+                paginationClickable: true //페이지네이션을 클릭하여 슬라이딩시킬수 있다
+            });
+        });
+    </script>
+
+    <!-- contact_pop -->
+    <div class="popup_base contact_pop ">
+        <div class="pop_content ">
+            <p class="btn_xpop "><a href="# " onclick="$(this).parent().parent().parent().hide(); ">닫기</a></p>
+            <ul class="pop_list ">
+                <li>
+                    <h2 class="tit_pop ">함덕</h2>
+                    <img class="pop_img " src="img/img_place _ 14.jpg " alt="함덕 " />
+                    <div class="pop_txt ">
+                        <p>제주에서 만난 아름다운 바다에 감탄을 금할 수 없어요. <br>인상적인 파도와 함께 하고 있으며 지친 일상속에서 바다소리 들으며 힐링할수 있습니다. </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- //contact_pop -->
+    <!--성패트릭 대성당의 view 버튼을 클릭했을때만 나타날 팝업을 위한 개별적 클래스명-->
+
+    <!-- space_pop -->
+    <div class="popup_base space_pop ">
+        <!--모든 팝업들의 스타일을 부여하기 위한 클래스 다른 팝업에도 공통으로 들어있다-->
+        <div class="pop_content ">
+            <p class="btn_xpop "><a href="# " onclick="$(this).parent().parent().parent().hide(); ">닫기</a></p>
+            <ul class="pop_list ">
+                <li>
+                    <h2 class="tit_pop ">가파도</h2>
+                    <img class="pop_img " src="img/img_ place _13.jpg " alt="가파도 " />
+                    <div class="pop_txt ">
+                        <p> 보리와 자연이 공존하는 세계. <br> 가파도는 휴식과 예쁜 청보리와 어울러진 커플과 오기좋은장소. </p>
+                    </div>
+                </li>
+                <li>
+                    <h2 class="tit_pop ">가파도 입구</h2>
+                    <img class="pop_img " src="img/img_pop4-3.jpg " alt="가파도 입구 " />
+                    <div class="pop_txt ">
+                        <p>공간에 대한 관람을 최대한 배려하려고 합니다.<br>가파도는 돌과 물과 산이 함께 어울림으로 배치된 조형 공간입니다.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- //space_pop -->
+
+    <!-- program_pop -->
+    <div class="popup_base program_pop ">
+        <div class="pop_content ">
+            <p class="btn_xpop "><a href="# " onclick="$(this).parent().parent().parent().hide(); ">닫기</a></p>
+            <ul class="pop_list ">
+                <li>
+                    <h2 class="tit_pop ">협재 해수욕장</h2>
+                    <img class="pop_img " src="img/bg_ pop5-1.jpg " alt="협재 해수욕장 " />
+                    <div class="pop_txt ">
+                        <p>제주도에서는 제일 이쁜바다와 휴식공간!.<br>여자친구,남자친구가 없어도 협재 해수욕장에 오면 해결!</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- //program_pop -->
+
 </body>
 
 </html>
